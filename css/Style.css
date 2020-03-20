@@ -1,0 +1,356 @@
+@font-face {
+
+  font-family: 'Proxima Nova';
+  src: url('../font/proxima_nova/regular.woff2') format('woff2'),
+       url('../font/proxima_nova/regular.woff') format('woff'),
+       url('../font/proxima_nova/regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+
+  font-family: 'proxima_novalight';
+  src: url('proxima_nova_light-webfont.woff2') format('woff2'),
+       url('proxima_nova_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.container {
+
+margin: auto;
+   
+}
+
+.background_1 { 
+
+background: #ffffff ;
+width: 1550px;
+height: 289px;
+z-index: 1
+
+}
+
+.Responsive_Design .R_D_Shape_189 { 
+ 
+stroke:rgb(95, 100, 104);
+fill:white;
+border-style: solid;
+border-width: 1px;
+border-color: rgba(255, 255, 255);
+border-radius: 50%;
+position: absolute;
+left: 607px;
+top: 54px;
+width: 72px;
+height: 72px;
+z-index: 24;
+
+  }
+  
+
+.Responsive_Design .Tablet { 
+  
+fill: rgb( 18, 117, 185 );
+background-color: rgb( 255, 255, 255);
+position: absolute;
+left: 632px;
+top: 75px;
+width: 24px;
+height: 30px;
+z-index: 25; 
+
+}
+
+.Responsive_Design .Tablet:hover {
+
+fill: #2a69a6;
+
+}
+
+.Responsive_Design h2 {
+
+font-family: "Proxima Nova", sans-serif ; 
+font-size: 14px;
+color: rgb(0, 0, 0);
+text-transform: uppercase;
+line-height: 1.714;
+text-align: center;
+position: absolute;
+left: 572px;
+top: 133.002px;
+z-index: 6;
+
+}
+
+.Responsive_Design .R_D_first_line {
+
+font-size: 14px;
+font-family: "Proxima Nova Light", sans-serif ; 
+color: rgb(157, 157, 157);
+line-height: 1.429;
+text-align: center;
+position: absolute;
+left: 529.68px;
+top: 164.675px;
+width: 220px;
+height: 52px;
+z-index: 9;
+
+}
+
+.Responsive_Design .R_D_second_line {
+
+font-size: 14px;
+font-family: "Proxima Nova Light", sans-serif ; 
+color: rgb(157, 157, 157);
+line-height: 1.429;
+text-align: center;
+position: absolute;
+left: 520.68px;
+top: 186.675px;
+width: 239px;
+height: 52px;
+z-index: 9;
+
+}
+
+.Responsive_Design .R_D_third_line {
+
+font-size: 14px;
+font-family: "Proxima Nova Light", sans-serif ; 
+color: rgb(157, 157, 157);
+line-height: 2.0;
+text-align: center;
+position: absolute;
+left: 517.68px;
+top: 204.675px;
+width: 245px;
+height: 52px;
+z-index: 9;
+
+}
+
+.Easy_Customize .E_C_Shape_189 {
+
+fill :rgba(18, 117, 185 );
+border-radius: 50%;
+position: absolute;
+left: 931px;
+top: 52px;
+width: 65px;
+height: 63px;
+z-index: 1;
+  
+}
+
+.Easy_Customize .E_C_Settings {
+  
+fill: #ffffff;
+position: absolute;
+left: 931px;
+top: 52px;
+width: 26px;
+height: 26px;
+padding: 19px 20px 20px 19px;
+z-index: 1;
+  
+}
+
+.Easy_Customize .E_C_Shape_189:hover {
+ 
+background-color: #ffffff;
+  
+}
+
+.Easy_Customize .E_C_Settings:hover {
+
+  border: 1px solid rgba(18, 117, 185 );
+  border-radius: 50%;
+  fill: #2a69a6;
+  background-color: white;
+
+}
+
+  
+.Easy_Customize h2 {
+
+font-family: "Proxima Nova", sans-serif ; 
+font-size: 14px;
+color: rgb(0, 0, 0);
+text-transform: uppercase;
+line-height: 1.714;
+text-align: center;
+position: absolute;
+left: 904px;
+top: 133.002px;
+z-index: 18;
+  
+}
+
+.Easy_Customize .E_C_first_line {
+
+font-size: 14px;
+font-family: "Proxima Nova Light", sans-serif ; 
+color: rgb(157, 157, 157);
+line-height: 1.429;
+text-align: center;
+position: absolute;
+left: 851.68px;
+top: 164.675px;
+width: 220px;
+height: 52px;
+z-index: 21;
+
+}
+
+.Easy_Customize .E_C_second_line {
+
+font-size: 14px;
+font-family: "Proxima Nova Light", sans-serif ; 
+color: rgb(157, 157, 157);
+line-height: 1.9;
+text-align: center;
+position: absolute;
+left: 841.68px;
+top: 183.675px;
+width: 239px;
+height: 52px;
+z-index: 21;
+
+}
+
+.Easy_Customize .E_C_third_line {
+
+font-size: 14px;
+font-family: "Proxima Nova Light", sans-serif ; 
+color: rgb(157, 157, 157);
+line-height: 1.429;
+text-align: center;
+position: absolute;
+left: 838.68px;
+top: 207.675px;
+width: 245px;
+height: 52px;
+z-index: 21;
+
+}
+
+
+.Fast_and_reliable .F_a_r_Shape_189 {
+
+border-radius: 50%;
+fill: rgb(18, 117, 185);
+position: absolute;
+left: 1253px;
+top: 54px;
+width: 65px;
+height: 63px;
+z-index: 13;
+
+}
+
+.Fast_and_reliable .F_a_r_Dashboard {
+  
+fill: #ffffff;
+position: absolute;
+left: 1252px;
+top: 53px;
+width: 28px;
+height: 24px;
+padding: 19px 20px 20px 20px;
+z-index: 14;
+
+}
+
+.Fast_and_reliable h2 {
+
+font-family: "Proxima Nova", sans-serif ; 
+font-size: 14px;
+color: rgb(0, 0, 0);
+text-transform: uppercase;
+line-height: 1.714;
+text-align: center;
+position: absolute;
+left: 1220px;
+top: 133.002px;
+z-index: 25;
+    
+}
+
+.Fast_and_reliable .F_a_r_Shape_189:hover {
+
+fill: #ffffff;
+    
+}
+  
+.Fast_and_reliable .F_a_r_Dashboard:hover {
+  
+border: 1px solid rgba(18, 117, 185 );
+border-radius: 50%;
+fill: #2a69a6;
+position: absolute;
+left: 1252px;
+top: 53px;
+width: 30px;
+height: 26px;
+padding-left: 18px;
+padding-bottom: 18px;
+padding-right: 15px;
+padding-top: 19;
+background-color: white;
+
+}
+  
+.Fast_and_reliable .F_a_r_first_line {
+
+font-size: 14px;
+font-family: "Proxima Nova Light", sans-serif ; 
+color: rgb(157, 157, 157);
+line-height: 1.429;
+text-align: center;
+position: absolute;
+left: 1176.68px;
+top: 164.675px;
+width: 220px;
+height: 52px;
+z-index: 21;
+  
+}
+  
+.Fast_and_reliable .F_a_r_second_line {
+
+font-size: 14px;
+font-family: "Proxima Nova Light", sans-serif ; 
+color: rgb(157, 157, 157);
+line-height: 1.429;
+text-align: center;
+position: absolute;
+left: 1166.68px; 
+top: 185.675px;
+width: 239px;
+height: 52px;
+z-index: 21;
+
+}
+  
+.Fast_and_reliable .F_a_r_third_line {
+
+font-size: 14px;
+font-family: "Proxima Nova Light", sans-serif ; 
+color: rgb(157, 157, 157);
+line-height: 1.429;
+text-align: center;
+position: absolute;
+left: 1163.68px;
+top: 207.675px;
+width: 245px;
+height: 52px;
+z-index: 21;
+
+}
+
+
+
